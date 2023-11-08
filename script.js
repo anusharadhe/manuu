@@ -8,7 +8,7 @@ function showNextImage() {
     images[currentImageIndex].style.display = "block";
 }
 
-setInterval(showNextImage, 3000);
+setInterval(showNextImage, 1000);
 
 // Initialize user submissions data from local storage
 let userSubmissions = JSON.parse(localStorage.getItem("userSubmissions")) || [];
