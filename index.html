@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Manu Photography Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to my Photography Portfolio</h2>
+        <p>Capturing moments through the lens.</p>
+    </section>
+    <section id="about">
+        <h2>About Manu</h2>
+        <p class="about-text">
+            📷 Welcome to my world of photography! I'm Manoj, a passionate young photographer on a mission to capture the beautiful moments that connect with human affections. With my lens, I'm dedicated to binding happiness and creating timeless memories that last a lifetime.<br>
+            
+            🌟 What sets my photography apart is the way I approach every shoot. It's not just about taking pictures; it's about weaving stories through images, capturing genuine emotions, and preserving the essence of the moment. I believe that each photo should tell a story, evoke emotions, and transport you back to that very instant in time.<br>
+            
+            💫 My goal is to make your photo session not just a photography experience, but a journey of emotions and memories. Whether it's a family portrait, a couple's shoot, or a special event, I'm here to craft moments you'll cherish forever.<br>
+            
+            ✨ Let's create something beautiful together. Reach out to me, and let's make your moments unforgettable through the magic of photography. I can't wait to be a part of your beautiful story!
+        </p>
+    </section>
+    
+    
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="slideshow-container">
+            <img src="image1.jpeg" alt="Photo 1">
+            <img src="image2.jpeg" alt="Photo 2">
+            <img src="image3.jpeg" alt="Photo 1">
+            <img src="image4.jpeg" alt="Photo 2">
+            <img src="image5.jpeg" alt="Photo 1">
+            <img src="image6.jpeg" alt="Photo 2">
+            <!-- Embedded YouTube video -->
+            <!-- <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/lM8h5Mm6ODo?si=_pD5VaWd3wc_At9l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+    </section>
+
+    <!-- <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at manu@email.com</p>
+    </section> -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at manu@email.com</p>
+    
+        <h3>We Can Reach You By</h3>
+        <form id="info-form" action="submit_info.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="user-info">
+        <h2>User Information</h2>
+        <p>Enter password to view user information:</p>
+        <input type="password" id="admin-password" placeholder="Admin Password">
+        <button id="admin-login">Login</button>
+        <div id="user-info-display" style="display: none;">
+            <!-- User information will be displayed here -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    
+    <footer>
+      All rights reserved  &COPY; 2023 mrtoxicphotographer
+    </footer>
+</body>
+</html>
